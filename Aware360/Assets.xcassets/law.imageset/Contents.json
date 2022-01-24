@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "123918288-courtroom-trial-process-judgement-illustration-criminal-defense-lawyer-protecting-client-plaintiff-p.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "123918288-courtroom-trial-process-judgement-illustration-criminal-defense-lawyer-protecting-client-plaintiff-p@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "123918288-courtroom-trial-process-judgement-illustration-criminal-defense-lawyer-protecting-client-plaintiff-p@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

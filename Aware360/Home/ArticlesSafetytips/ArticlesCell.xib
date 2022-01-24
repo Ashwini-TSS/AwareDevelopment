@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="211" id="KGk-i7-Jjw" customClass="ArticlesCell" customModule="TaskToday" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="211"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEp-TW-vU6">
+                        <rect key="frame" x="2" y="2" width="399" height="207"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="safetytrip.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="E2t-fq-lEQ">
+                                <rect key="frame" x="8" y="61" width="140" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="Xy7-b1-m5a"/>
+                                    <constraint firstAttribute="width" constant="140" id="fzi-cP-ENk"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secure cargo that may move around while the vehicle is in motion." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnY-pP-DoB">
+                                <rect key="frame" x="20" y="2" width="377" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="b4H-5c-vnA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansOriya-Bold" family="Noto Sans Oriya" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J10-rC-yeK">
+                                <rect key="frame" x="156" y="61" width="233" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="07a-85-bcV"/>
+                                </constraints>
+                                <string key="text">Don't allow children to fight or climb around in your car – they should be buckled in their seats at all times. Too much noise can easily distract you </string>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="13"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgU-Lc-Vsb">
+                                <rect key="frame" x="156" y="150" width="138" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="h6U-xo-nk6"/>
+                                    <constraint firstAttribute="width" constant="138" id="sRS-ky-yXa"/>
+                                </constraints>
+                                <state key="normal" title="Read more">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="E2t-fq-lEQ" firstAttribute="top" secondItem="NnY-pP-DoB" secondAttribute="bottom" constant="14" id="Eeb-A0-4Tv"/>
+                            <constraint firstAttribute="trailing" secondItem="J10-rC-yeK" secondAttribute="trailing" constant="10" id="Grm-fz-Smn"/>
+                            <constraint firstItem="NnY-pP-DoB" firstAttribute="leading" secondItem="ZEp-TW-vU6" secondAttribute="leading" constant="20" symbolic="YES" id="J7J-fi-3Qg"/>
+                            <constraint firstItem="J10-rC-yeK" firstAttribute="leading" secondItem="E2t-fq-lEQ" secondAttribute="trailing" constant="8" symbolic="YES" id="JHE-t1-MaG"/>
+                            <constraint firstAttribute="trailing" secondItem="NnY-pP-DoB" secondAttribute="trailing" constant="2" id="Wb9-b9-2qC"/>
+                            <constraint firstItem="J10-rC-yeK" firstAttribute="top" secondItem="NnY-pP-DoB" secondAttribute="bottom" constant="14" id="Wq3-2y-2cI"/>
+                            <constraint firstItem="NnY-pP-DoB" firstAttribute="top" secondItem="ZEp-TW-vU6" secondAttribute="top" constant="2" id="hAY-BD-F8W"/>
+                            <constraint firstItem="E2t-fq-lEQ" firstAttribute="leading" secondItem="ZEp-TW-vU6" secondAttribute="leading" constant="8" id="nui-1c-nHB"/>
+                            <constraint firstItem="IgU-Lc-Vsb" firstAttribute="leading" secondItem="E2t-fq-lEQ" secondAttribute="trailing" constant="8" symbolic="YES" id="q7e-SP-JRM"/>
+                            <constraint firstItem="IgU-Lc-Vsb" firstAttribute="top" secondItem="J10-rC-yeK" secondAttribute="bottom" constant="10" id="uqj-h4-MDY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZEp-TW-vU6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="9yy-K3-MbL"/>
+                    <constraint firstAttribute="bottom" secondItem="ZEp-TW-vU6" secondAttribute="bottom" constant="2" id="clL-3m-3Wp"/>
+                    <constraint firstAttribute="trailing" secondItem="ZEp-TW-vU6" secondAttribute="trailing" constant="2" id="dud-ht-pQZ"/>
+                    <constraint firstItem="ZEp-TW-vU6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="kTr-tW-I7b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="138.40579710144928" y="91.40625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="safetytrip.jpeg" width="187.19999694824219" height="115.19999694824219"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
